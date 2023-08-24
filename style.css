@@ -43,6 +43,53 @@ h2 {
     padding-top: 50px;
 }
 
+#tic-tac {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 92px;
+    color: #FAB201;
+    font-weight: 900;
+    -webkit-text-stroke: 3px white;
+}
+
+
+#result{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    visibility: hidden;
+    opacity: 0.9;
+
+}
+
+#message{
+    font-size: 50px;
+    color: white;
+}
+
+#button{
+    padding: 10px;
+    margin-top: 30px;
+    background-color:#FAB201;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    opacity: 1;
+    border-radius: 5px;
+    width: 200px;
+}
+
 
 @media (max-width: 600px) {
     h1 {
